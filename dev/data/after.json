@@ -1,0 +1,74 @@
+{
+  "text": "After leaving orbit, the robot engaged the spaceship's autopilot.",
+  "nodeTypeToStyle": {
+    "event": ["color1", "strong"],
+    "sequence": ["seq"],
+    "entity": ["color2"],
+    "detail": ["color3"]
+  },
+  "linkToPosition": {
+    "subj": "left",
+    "obj": "right",
+    "parg": "right"
+  },
+  "linkNameToLabel": {
+    "advx": "MOD",
+    "adv": "MOD",
+    "subj": "S",
+    "obj": "O",
+    "adj": "MOD",
+    "parg": "O"
+  },
+  "root": {
+    "nodeType": "event",
+    "word": "engage",
+    "children": [
+      {
+        "nodeType": "detail",
+        "word": "after",
+        "link": "adv",
+        "children": [
+          {
+            "nodeType": "event",
+            "word": "leave",
+            "attributes": ["participleClause"],
+            "link": "parg",
+            "children": [
+              {
+                "nodeType": "entity",
+                "word": "orbit",
+                "link": "obj"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nodeType": "entity",
+        "word": "robot",
+        "attributes": ["the"],
+        "link": "subj"
+      },
+      {
+        "nodeType": "entity",
+        "word": "autopilot",
+        "link": "obj",
+        "children": [
+          {
+            "nodeType": "detail",
+            "word": "possessedby",
+            "link": "adj",
+            "children": [
+              {
+                "nodeType": "entity",
+                "word": "spaceship",
+                "attributes": ["the"],
+                "link": "parg"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

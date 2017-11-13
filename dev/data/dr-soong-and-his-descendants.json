@@ -1,0 +1,38 @@
+{
+  "text": "Dr. Soong and his descendants:",
+  "root": {
+    "word": "Dr. Noonien Soong",
+    "children": [
+      {
+        "word": "Unnamed Soong-type android 1",
+        "link": "offspring"
+      },
+      {
+        "word": "Unnamed Soong-type android 2",
+        "link": "offspring"
+      },
+      {
+        "word": "Lore",
+        "link": "offspring"
+      },
+      {
+        "word": "Data",
+        "link": "offspring",
+        "children": [
+          {
+            "word": "Lal",
+            "link": "offspring"
+          }
+        ]
+      },
+      {
+        "word": "B-4",
+        "link": "offspring"
+      },
+      {
+        "word": "Facsimile of Juliana Tainer",
+        "link": "offspring"
+      }
+    ]
+  }
+}

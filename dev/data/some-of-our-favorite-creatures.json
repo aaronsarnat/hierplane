@@ -1,0 +1,149 @@
+{
+  "text": "Some of our favorite creatures:",
+  "nodeTypeToStyle": {
+    "root": ["strong"],
+    "kingdom": ["color1"],
+    "phylum": ["color2"],
+    "class": ["color3"],
+    "order": ["color4"],
+    "family": ["color5"],
+    "genus": ["color6"],
+    "species": ["color1"],
+    "sub": ["color2"]
+  },
+  "root": {
+    "word": "Tree of Life",
+    "nodeType": "root",
+    "children": [
+      {
+        "word": "Animalia",
+        "link": "Kingdom",
+        "nodeType": "kingdom",
+        "children": [
+          {
+            "word": "Chordata",
+            "link": "Phylum",
+            "nodeType": "phylum",
+            "children": [
+              {
+                "word": "Mammalia",
+                "link": "Class",
+                "nodeType": "class",
+                "children": [
+                  {
+                    "word": "Carnivora",
+                    "link": "Order",
+                    "nodeType": "order",
+                    "children": [
+                      {
+                        "word": "Canidae",
+                        "link": "Family",
+                        "nodeType": "family",
+                        "children": [
+                          {
+                            "word": "Canis",
+                            "link": "Genus",
+                            "nodeType": "genus",
+                            "children": [
+                              {
+                                "word": "lupus",
+                                "link": "Species",
+                                "nodeType": "species",
+                                "children": [
+                                  {
+                                    "word": "familiaris",
+                                    "link": "Subspecies",
+                                    "nodeType": "sub",
+                                    "attributes": ["dog"]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "word": "Felidae",
+                        "link": "Family",
+                        "nodeType": "family",
+                        "children": [
+                          {
+                            "word": "Felis",
+                            "link": "Genus",
+                            "nodeType": "genus",
+                            "children": [
+                              {
+                                "word": "catus",
+                                "link": "Species",
+                                "nodeType": "species",
+                                "attributes": ["cat"]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "word": "Diprotodontia",
+                    "link": "Order",
+                    "nodeType": "order",
+                    "children": [
+                      {
+                        "word": "Macropodidae",
+                        "link": "Family",
+                        "nodeType": "family",
+                        "children": [
+                          {
+                            "word": "Setonix",
+                            "link": "Genus",
+                            "nodeType": "genus",
+                            "children": [
+                              {
+                                "word": "brachyurus",
+                                "link": "Species",
+                                "nodeType": "species",
+                                "attributes": ["quokka", "Aww ♥"]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "word": "Primates",
+                    "link": "Order",
+                    "nodeType": "order",
+                    "children": [
+                      {
+                        "word": "Hominidae",
+                        "link": "Family",
+                        "nodeType": "family",
+                        "children": [
+                          {
+                            "word": "Homo",
+                            "link": "Genus",
+                            "nodeType": "genus",
+                            "children": [
+                              {
+                                "word": "sapien",
+                                "link": "Species",
+                                "nodeType": "species",
+                                "attributes": ["human"]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
